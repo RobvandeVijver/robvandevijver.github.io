@@ -6,7 +6,7 @@
 
 header
 {
-    background-image: url(background.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5)), url(background.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -33,3 +33,12 @@ header
     font-size: 15px;
 }
 
+.main-nav li.active a  
+{
+    border:1px solid white;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
