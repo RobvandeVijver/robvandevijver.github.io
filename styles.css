@@ -11,3 +11,25 @@ header
     background-size: cover;
     background-position: center;
 }
+
+.main-nav
+{
+    Float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li
+{
+    color: white;  
+    text-decoration: none;
+    padding: 5px 20;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
