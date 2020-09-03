@@ -6,5 +6,8 @@
 
 header
 {
-    background-immage: url(https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.hdwallpaperspulse.com%2F1080p-background.html&psig=AOvVaw11RnXjhhY9cB8AxE57I9pK&ust=1599212793190000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMD9so3azOsCFQAAAAAdAAAAABAD)
+    background-image: url(background.jpg);
+    height: 100
+    background-size: cover;
+    background-position: center;
 }
