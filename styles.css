@@ -4,41 +4,52 @@
     padding: 0;
 }
 
-header
-{
-    background-image:linear-gradient(rgba(0,0,0,0.5)), url(background.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+body{
+    background: url(study.jpg) no-repeat;
+    position: center;
 }
 
 .main-nav
 {
-    Float: right;
+    Float: center;
     list-style: none;
-    margin-top: 30px;
-}
+    margin-top: 40px;
+    }
 
 .main-nav li
 {
     display: inline-block;
 }
 
-.main-nav li
+.main-nav li a
 {
     color: white;  
     text-decoration: none;
-    padding: 5px 20;
+    padding: 5px 20px;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
 }
 
 .main-nav li.active a  
 {
-    border:1px solid white;
+    border: 2px solid white;
 }
 
 .main-nav li a:hover
 {
-    border: 1px solid white;
+    border: 2px solid white;
+}
+
+.texthomepage
+{
+    top: 400px;
+    right: 150px;
+    bottom: 20px
+}
+
+.move-hz
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
