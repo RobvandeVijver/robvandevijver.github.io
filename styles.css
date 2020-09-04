@@ -53,3 +53,9 @@ body{
     top: 0px;
     right: 0px;
 }
+
+.textcolorindex {
+    color: white;
+    right: 100 px;
+    top: 100 px;
+}
