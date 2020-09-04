@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+#left{
+    float: left;
+    width: 50%;
+}
+
+#right{
+    float: right;
+    width: 50%;
+}
+
 body{
     background: url(study.jpg) no-repeat;
     position: center;
@@ -54,8 +64,30 @@ body{
     right: 0px;
 }
 
-.textcolorindex {
+.textcolorindex li {
     color: white;
     right: 100 px;
     top: 100 px;
+}
+
+h1{
+    background-color: rgba(45,45,45,0.1);
+    right: 100px;
+    top: 250px;
+    left: 150px;
+    height: 50px;
+}
+
+section{
+    background-color: white;
+    right: 100 px;
+    top: 600 px;
+    margin: 20px;
+    margin-right: 40;
+    margin-top: 450;
+}
+
+.line{
+    color: white;
+    top: 300px;
 }
