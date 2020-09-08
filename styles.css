@@ -273,3 +273,49 @@ table, th, td {
     height: 10px;
     border-radius: 6px;
 }
+
+.fade-in{
+    animation: Fade 3s;
+    animation-duration: 1000ms;
+}
+
+@keyframes Fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in-mid{
+    animation: Fade 3s;
+    animation-duration: 1500 ms;
+}
+
+@keyframes Fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in-slow{
+    animation: Fade 3s;
+    animation: 2000ms;
+
+}
+
+@keyframes Fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
