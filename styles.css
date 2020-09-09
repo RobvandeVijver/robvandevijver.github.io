@@ -276,7 +276,6 @@ table, th, td {
 
 .fade-in{
     animation: Fade 3s;
-    animation-duration: 1000ms;
 }
 
 @keyframes Fade {
@@ -291,7 +290,7 @@ table, th, td {
 
 .fade-in-mid{
     animation: Fade 3s;
-    animation-duration: 1500 ms;
+    animation-delay: 2s;
 }
 
 @keyframes Fade {
@@ -306,13 +305,13 @@ table, th, td {
 
 .fade-in-slow{
     animation: Fade 3s;
-    animation: 2000ms;
-
+    animation-delay: 4s;
 }
 
 @keyframes Fade {
     from {
         opacity: 0;
+        
     }
 
     to {
