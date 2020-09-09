@@ -41,14 +41,10 @@ body{
     font-size: 15px;
 }
 
-.main-nav li.active a  
+.main-nav li:hover
 {
     border: 2px solid white;
-}
 
-.main-nav li a:hover
-{
-    border: 2px solid white;
 }
 
 .texthomepage
@@ -290,7 +286,6 @@ table, th, td {
 
 .fade-in-mid{
     animation: Fade 3s;
-    animation-delay: 2s;
 }
 
 @keyframes Fade {
@@ -305,7 +300,6 @@ table, th, td {
 
 .fade-in-slow{
     animation: Fade 3s;
-    animation-delay: 4s;
 }
 
 @keyframes Fade {
