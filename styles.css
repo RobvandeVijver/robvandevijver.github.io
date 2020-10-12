@@ -88,7 +88,7 @@ h1{
     margin-right: 825px;
     margin-top: 55px;
     border-radius: 40px;
-    line-height: 16px;
+    line-height: 20px;
 }
 
 .opmaak1{
@@ -98,6 +98,50 @@ h1{
     font-size: 24px;
     border-radius: 40px;
     padding: 50px 50px 0px 50px;
+    line-height: 20px;
+}
+
+.opmaak4{
+    background-color: white;
+    margin-right: 825px;
+    margin-left: 150px;
+    font-size: 24px;
+    border-radius: 40px;
+    padding: 50px 50px 0px 50px;
+    line-height: 20px;
+}
+
+.opmaak5{
+    background-color: white;
+    margin-right: 825px;
+    margin-left: 150px;
+    margin-top: 95px;
+    font-size: 24px;
+    border-radius: 40px;
+    padding: 25px 50px 0px 50px;
+    line-height: 20px;
+}
+
+.opmaak6{
+    background-color: white;
+    margin-right: 825px;
+    margin-left: 150px;
+    margin-top: 95px;
+    font-size: 24px;
+    border-radius: 40px;
+    padding: 25px 50px 0px 50px;
+    line-height: 20px;
+}
+
+h10{
+    background-color: rgb(0, 255, 76);
+    color: white;
+    border-radius: 40px;
+    padding: 20px;
+    margin-top: -50px;
+    margin-left: -50px;
+    margin-right: -50px;
+    padding-left: 50px;
 }
 
 h3{
@@ -111,14 +155,22 @@ h3{
     padding-left: 50px;
 }
 
+h9{
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+    padding: 20px;
+    margin-top: -50px;
+    margin-left: -50px;
+    margin-right: -50px;
+    padding-left: 50px;
+}
+
 p1{
     background-color: white;
     color: black;
     font-size: 18px;
-}
-
-h4{
-    color: red;
+    line-height: 16px;
 }
 
 table, th, td {
@@ -312,3 +364,19 @@ table, th, td {
         opacity: 1;
     }
 }
+
+.bronnenlijst{
+    background-color: white;
+    margin: 140px 140px 0px 140px;
+    margin-right: 825px;
+    margin-top: 80px;
+    border-radius: 40px;
+    line-height: 16px;
+    padding: 40px;
+    
+}
+
+h8{
+    font-size: 26px;
+}
+
