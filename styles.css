@@ -144,6 +144,28 @@ h10{
     padding-left: 50px;
 }
 
+h11{
+    background-color: rgb(25, 0, 255);
+    color: white;
+    border-radius: 40px;
+    padding: 20px;
+    margin-top: -50px;
+    margin-left: -50px;
+    margin-right: -50px;
+    padding-left: 50px;
+}
+
+h12{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 40px;
+    padding: 20px;
+    margin-top: -50px;
+    margin-left: -50px;
+    margin-right: -50px;
+    padding-left: 50px;
+}
+
 h3{
     background-color: green;
     color: white;
